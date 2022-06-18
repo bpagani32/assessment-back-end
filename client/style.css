@@ -1,0 +1,208 @@
+
+  h1{
+    font-size:60px;
+  }
+  body {
+    background-color:midnightblue;
+    font-size: large;
+    font-family: fantasy;
+  }
+  
+  header {
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: whitesmoke;
+  }
+  
+  main {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  form {
+    width: 350px;
+    height: 350px;
+    background-color: darkslategray;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px;
+  }
+  
+  button {
+    background-color: #232323;
+   
+    color:black;
+    border: none;
+   
+    font-size: 40px;
+    background-color: silver;
+    margin:auto;
+    display: flex;
+    flex-direction:column;
+    align-items: right;
+    border-radius: 15%;
+    
+  }
+  
+  input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background-color: snow;
+  }
+  
+  #price-container {
+    width: 85%;
+  }
+  
+  #radio-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .mechs{
+    background-color: silver;
+    width: 400px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 400px;
+  }
+  
+  .house-address {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .house-price {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  
+  .btns-container {
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
+  
+  .btns-container > button {
+    width: 20px;
+  }
+  button:hover{
+    background-color: #232323;
+    color:gold;
+    cursor: pointer;
+  }
+  label{
+   background-color: silver;
+   display: flex;
+   margin:auto;
+   width: 170px;
+   justify-content: center;
+   color:black;
+   font-size: 18px;
+   border-radius: 4px;
+   font-weight:900;
+  }
+  select{
+    background-color: gold;
+    background-color: #232323;
+   
+    color:black;
+    border: none;
+   
+    font-size: 40px;
+    background-color: silver;
+    margin:auto;
+    display: flex;
+    flex-direction:column;
+    align-items: right;
+    border-radius: 15%;
+    justify-content: center;
+    width:450px; text-align-last: right;
+    padding-right: 29px;
+    direction: rtl;
+   
+    
+  }
+  select:hover{
+    background-color: #232323;
+    color:gold;
+    cursor: pointer;
+  }
+  #submit{
+    width:100px ;
+    height: 30px;
+    color:black;
+    justify-content: center;
+    background-color: silver;
+    margin:auto;
+    display: flex;
+    font-size:20px;
+    align-items: right;
+  }
+  #submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+  }
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: silver;
+    color: midnightblue;
+  }
+  .footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+ }
