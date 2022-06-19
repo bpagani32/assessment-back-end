@@ -1,4 +1,13 @@
-
+#GXS_Logo{
+    
+    border-color:silver;
+   
+    width: 125px;
+    height: 30px;
+    margin:auto;
+   
+  }
+  
   h1{
     font-size:60px;
   }
@@ -170,10 +179,12 @@
     cursor: pointer;
     
   }
+
   /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
+    position: fixed;
   }
   
   /* Style the links inside the navigation bar */
@@ -183,7 +194,8 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    
   }
   
   /* Change the color of links on hover */
@@ -194,8 +206,8 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: silver;
-    color: midnightblue;
+    background-color:black;
+    color: #f2f2f2;
   }
   .footer {
     

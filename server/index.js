@@ -15,4 +15,4 @@ app.get("/api/compliment", getCompliment);
 // app.get("/api/fortune", getFortune)
 // app.get("/api/armours", pickArmour)
 //end points---------------------------
-app.listen(4000, () => console.log("Server running on 4000"));
+app.listen(4000, () => console.log("Jamming running on 4000!"));
