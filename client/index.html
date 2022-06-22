@@ -12,9 +12,22 @@
     <a href="https://www.twitch.tv/traycleaner">Twitch.Tv</a>
     <a href="https://www.youtube.com/watch?v=xgbckZS6boc"><img src="https://images.fanart.tv/fanart/gun-x-sword-51d884bfa5d19.png"id="GXS_Logo"/> </a>
 
+
    
   </div>
-  <br><br>
+  <form id="powerForm">
+    <div>
+      <label class="name" for="name">Username: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div>
+      <label class="pl" for="pl">Password:</label>
+      <input type="text" name="pl" id="pl" required>
+    </div>
+    <div>
+      <input id="Go" type="submit" value="Login">
+    </div>
+  </form>
   <header class="Title">
     <h1>Brian's Cool Page</h1>
   </header>
@@ -51,7 +64,7 @@
     <img class="mechs" src="https://64.media.tumblr.com/527bc067fd22a3e8ca9b339d6f68ca1e/tumblr_navsqfqLeB1rjxyrgo1_500.gifv">
     <br>
     
-    <label for="Choose">Choose an Armour:</label>
+    <label for="Choose">Choose your Armour:</label>
     <select name="armours" id="armours">
     <option value="Saudade">Saudade of Sunday</option>
     <option value="Diablo">Diablo of Monday</option>
@@ -77,6 +90,37 @@
 
   </select>
   <button type id="submit" name="id" value="value">   Submit>> </button>
+</form>
+<p class="container">
+  <img class="mechs" src="https://64.media.tumblr.com/cfd523433a9460445f80bbd21b09c3c8/tumblr_o5wsdzUVf91rjxyrgo1_500.gifv">
+  <br>
+  
+  <label for="Choose">Choose Armour to Vs:</label>
+  <select name="armours" id="armours">
+  <option value="Saudade">Saudade of Sunday</option>
+  <option value="Diablo">Diablo of Monday</option>
+  <option value="Metsa">Metsa of Tuesday</option>
+  <option value="Dahlia">Dahlia of Wednesday</option>
+  <option value="Dann">Dann of Thursday</option>
+  <option value="Sinn">Sinn of Friday</option>
+  <option value="Senn">Sen of Saturday</option>
+  <option value="101">1-0-1</option>
+  <option value="Birthday">Birthday System</option>
+  <option value="Brownie">Brownie</option>
+  <option value="Buckee">Buckee</option>
+  <option value="Drakul">Drakul</option>
+  <option value="El Dora V">El Dorado V</option>
+  <option value="Golden">Golden Cradle</option>
+  <option value="Lucky">Lucky Roulette</option>
+  <option value="Metal">Metal Guru</option>
+  <option value="S-Drive">S-Drive Dragon</option>
+  <option value="RWC">Super Armour RWC</option>
+  <option value="Twin">Twin Lock</option>
+  <option value="Volkein">Volkein</option>
+
+
+</select>
+<button type id="submit" name="id" value="value">   Submit>> </button>
 </form>
     <br>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

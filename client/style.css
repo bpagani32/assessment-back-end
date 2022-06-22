@@ -7,7 +7,37 @@
     margin:auto;
    
   }
+  #powerForm{
+    width: 200px;
+    height: 200px;
   
+    display:flex;
+    flex-direction: row;
+    margin-left:875px;
+    
+    
+  }
+  .name{
+    width: auto;
+    background-color: #ddd;
+    color: red;
+ 
+  }
+  #name{
+    width: 160px;
+    background-color: #333;
+    color:#ddd
+  }
+  #pl{
+    width:160px;
+    background-color: #333;
+    color:#ddd
+  }
+ .pl{
+  width: auto;
+  background-color: #ddd;
+  color:red;
+ }
   h1{
     font-size:60px;
   }
@@ -15,6 +45,11 @@
     background-color:midnightblue;
     font-size: large;
     font-family: fantasy;
+  }
+  #Go{
+    height:60px;
+    background-color: black;
+    color:white;
   }
   
   header {
@@ -28,18 +63,6 @@
   main {
     display: flex; 
     justify-content: center;
-  }
-  
-  form {
-    width: 350px;
-    height: 350px;
-    background-color: darkslategray;
-    position: relative;
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-evenly; 
-    align-items: center;
-    margin: 30px;
   }
   
   button {
@@ -129,7 +152,7 @@
    background-color: silver;
    display: flex;
    margin:auto;
-   width: 170px;
+   width: 180px;
    justify-content: center;
    color:black;
    font-size: 18px;
