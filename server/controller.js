@@ -8,24 +8,31 @@ module.exports = {
         let randomCompliment = compliments[randomIndex];
       
         res.status(200).send(randomCompliment);
-    }
-    // getFortune: (req, res) => {
-    //     const fortunes = ["Be Yourself!"];
+    },
+    getFortune: (req, res) => {
+        const fortunes = [
+            "Soon Brian Pagani will eat Portillo's with Adrian",
+            "Follow a rainbow to find rain",
+            "Just be yourself",
+            "A fresh start will put you on your way",
+            "Jared will be unlocked upon completion of the class",
+            "You will assist a puffin with your gloved hand",
+        ]
 
-    //     let randomIndex = Math.floor(Math.random() * fortunes.length);
-    //     let randomFortune = fortunes[randomIndex];
+        let randomIndex = Math.floor(Math.random() * fortunes.length);
+        let randomFortune = fortunes[randomIndex];
 
-    //     res.status(200).send(randomFortune);
-    // }
+        res.status(200).send(randomFortune);
+    },
 //Something went wrong here , not sure yet
         // pickArmour: (req, res) => {
-        //     const armours = {"That is a good one!"};
-        //     let randomIndex = Math.floor(Math.random() * compliments.length);
-        //     let randomCompliment = compliments[randomIndex];
+        //     const armours = {};
+        //     let randomIndex = Math.floor(Math.random() * armours.length);
+        //     let randomArmours = armours[randomIndex];
           
-        //     res.status(200).send(randomCompliment);
+        //     res.status(200).send(randomArmours);
             
-        // }
+        // },
 
 //This is for my Drop Down List
 }
