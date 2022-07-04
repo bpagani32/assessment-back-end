@@ -1,0 +1,9 @@
+//come back to problem 5 on menu
+//come back to finish employees and cart
+
+//go back to the loop on home.js for zipcodes
+
+//go back and fix menu with the big array
+
+design is my passion here's my figma
+//https://www.figma.com/file/qfIIP3VQim8iFhJNjb5NV4/Hungry-Brian's-Burgers?node-id=2%3A20
